@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 118c9d65fb794f54e86c09ea0dceaf80, type: 3}
+  m_Name: Game Data
+  m_EditorClassIdentifier: 
+  playerView: {fileID: 2202065693580080692, guid: 4436e81c57db8dc4e9f4a08036c29946, type: 3}
+  tankData:
+    speed: 40
+    rotationSpeed: 60
+  weapons:
+  - id: 1
+    view: {fileID: 1105179492373251033, guid: 2ca84b65b3c33d64ab84fae54bd769e0, type: 3}
+    damage: 20
+    speed: 50
+  - id: 2
+    view: {fileID: 1105179492373251033, guid: f78c2bb871b811b448ae7c9f075deec5, type: 3}
+    damage: 50
+    speed: 20
+  - id: 3
+    view: {fileID: 1105179492373251033, guid: 5eac4dc016e2d1049a6070afff120b15, type: 3}
+    damage: 10
+    speed: 90
+  enemies:
+  - id: 1
+    view: {fileID: 9188012449349463698, guid: a75744f2fe4529c47adf89bba05ffcb2, type: 3}
+    speed: 30
+    rotateSpeed: 0
+    health: 20
+  - id: 2
+    view: {fileID: 3046604230252280782, guid: 75dd83abc1f2dc347ae02952d3183f7c, type: 3}
+    speed: 10
+    rotateSpeed: 0
+    health: 50
+  hpView: {fileID: 4524471616513324441, guid: 8824d24c10f866648afbeba29dbbd3f0, type: 3}
+  enemySpawnTime: 10
